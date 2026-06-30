@@ -1,0 +1,23 @@
+{
+  "name": "zhianxuehu",
+  "version": "1.0.0",
+  "description": "智安学护 - 大学生个人信息风险控制系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["anti-fraud", "risk-control", "student-safety", "express", "sqlite"],
+  "author": "杨帅哥",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "sqlite3": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
