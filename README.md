@@ -26,44 +26,6 @@
 - **AI模型**：BERT诈骗话术识别、随机森林异常行为检测、时序分析贷款冒用检测
 - **安全机制**：bcryptjs密码加密、express-session会话管理、RBAC权限控制
 
-## 部署方式
-
-### 方式一：Render部署（推荐免费方案）
-
-1. 注册 [Render](https://render.com) 账号
-2. 创建新的 Web Service
-3. 连接你的GitHub仓库
-4. 配置：
-   - Build Command: `npm install`
-   - Start Command: `npm start`
-5. 部署完成后获得公开访问链接
-
-### 方式二：Railway部署
-
-1. 注册 [Railway](https://railway.app) 账号
-2. 创建新项目，选择从GitHub部署
-3. 配置启动命令：`npm start`
-4. 获取公开链接
-
-### 方式三：本地运行
-
-```bash
-# 1. 克隆项目
-git clone https://github.com/你的用户名/zhianxuehu.git
-
-# 2. 进入项目目录
-cd zhianxuehu/project
-
-# 3. 安装依赖
-npm install
-
-# 4. 启动服务
-npm start
-
-# 5. 访问系统
-# 打开浏览器访问 http://localhost:3000/gate.html
-```
-
 ## 默认账号
 
 | 角色 | 用户名 | 密码 |
@@ -92,6 +54,4 @@ project/
 - 生产环境建议修改默认密码
 - 建议配置环境变量管理敏感信息
 
-## 许可证
-
-MIT License
+注:全是AI工具跑的代码,用来练手的,如有侵权请告知会下架!
